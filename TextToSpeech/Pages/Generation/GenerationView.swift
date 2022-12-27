@@ -66,6 +66,8 @@ struct GenerationView: View {
                     errorModel.error = SaveFileError.unableToSave
                     return
                 }
+                generationJobModel.start()
+                generationJobModel.updateOutputUrl(url: url)
                 try await azureModel.generateForDownload(text: text, destination: url, onStart: {
                     generationJobModel.start()
                     generationJobModel.updateOutputUrl(url: url)

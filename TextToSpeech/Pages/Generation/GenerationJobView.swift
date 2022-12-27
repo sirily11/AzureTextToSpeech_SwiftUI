@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct GenerationJobView: View {
+    @EnvironmentObject var generationJobModel: GenerationJobModel
     let generationJob: GenerationJob
     
     
@@ -18,8 +19,10 @@ struct GenerationJobView: View {
         return Tooltip {
             VStack(alignment: .leading) {
                 Text(generationJob.outputUrl?.lastPathComponent ?? "")
-                Text("Downloaded: \(formatter.string(fromByteCount: generationJob.downloaded ?? 0))")
-            }.padding()
+                Text("Downloaded: \(formatter.string(fromByteCount: generationJobModel.downloadedSize))")
+            }
+            .padding()
+            .frame(minWidth: 300)
         } content: {
             Group {
                 if generationJob.isFinished {
