@@ -7,19 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD1BEAB3295972BE0030E057 /* AzureTextToSpeech in Frameworks */ = {isa = PBXBuildFile; productRef = CD1BEAB2295972BE0030E057 /* AzureTextToSpeech */; };
+		CD1BEAB7295973470030E057 /* AuthenticationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1BEAB6295973470030E057 /* AuthenticationPage.swift */; };
+		CD1BEABA295974F90030E057 /* SwiftUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = CD1BEAB9295974F90030E057 /* SwiftUIKit */; };
+		CD1BEABD295975C10030E057 /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = CD1BEABC295975C10030E057 /* AlertToast */; };
 		CD308557295947C6007CC9CF /* TextToSpeechApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD308556295947C6007CC9CF /* TextToSpeechApp.swift */; };
-		CD308559295947C6007CC9CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD308558295947C6007CC9CF /* ContentView.swift */; };
+		CD308559295947C6007CC9CF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD308558295947C6007CC9CF /* HomeView.swift */; };
 		CD30855B295947C6007CC9CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD30855A295947C6007CC9CF /* Assets.xcassets */; };
 		CD30855E295947C6007CC9CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD30855D295947C6007CC9CF /* Preview Assets.xcassets */; };
+		CD30856A29596F68007CC9CF /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CD30856929596F68007CC9CF /* KeychainSwift */; };
+		CD30856D29597043007CC9CF /* AuthenticationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30856C29597043007CC9CF /* AuthenticationModel.swift */; };
+		CD69D0DC29599B4200CE6247 /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD69D0DB29599B4200CE6247 /* WelcomePage.swift */; };
+		CD69D0DF29599B6700CE6247 /* WelcomeListTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD69D0DE29599B6700CE6247 /* WelcomeListTile.swift */; };
+		CDDDC7EE2959A21E00B78064 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDC7ED2959A21E00B78064 /* LogoView.swift */; };
+		CDDDC7F12959A62100B78064 /* DefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDC7F02959A62100B78064 /* DefaultSettings.swift */; };
+		CDDDC7F32959A92600B78064 /* SetupPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDC7F22959A92600B78064 /* SetupPage.swift */; };
+		CDDDC7F62959B57100B78064 /* GenerationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDC7F52959B57100B78064 /* GenerationPage.swift */; };
+		CDDDC7F92959BBAA00B78064 /* LocalizedAlertError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDC7F82959BBAA00B78064 /* LocalizedAlertError.swift */; };
+		CDDDC7FC2959BBEE00B78064 /* Extensions+Alert+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDC7FB2959BBEE00B78064 /* Extensions+Alert+View.swift */; };
+		CDDDC7FE2959C9A000B78064 /* VoiceSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDC7FD2959C9A000B78064 /* VoiceSettingsView.swift */; };
+		CDDDC8002959D5D500B78064 /* GenerationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDC7FF2959D5D500B78064 /* GenerationView.swift */; };
+		CDDDC8022959D68500B78064 /* TextModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDC8012959D68500B78064 /* TextModel.swift */; };
+		CDDDC8052959D94200B78064 /* OpenTextFileCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDC8042959D94200B78064 /* OpenTextFileCommand.swift */; };
+		CDDDC8072959DDEA00B78064 /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDC8062959DDEA00B78064 /* ErrorModel.swift */; };
+		CDDDC8092959E91F00B78064 /* SectionTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDC8082959E91F00B78064 /* SectionTile.swift */; };
+		CDDDC80B2959F06D00B78064 /* Extensions+AzureVoice+RawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDC80A2959F06D00B78064 /* Extensions+AzureVoice+RawRepresentable.swift */; };
+		CDDDC80D295A072800B78064 /* GenerationJobModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDC80C295A072800B78064 /* GenerationJobModel.swift */; };
+		CDDDC80F295A0E7A00B78064 /* GenerationJobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDC80E295A0E7A00B78064 /* GenerationJobView.swift */; };
+		CDDDC811295AC34400B78064 /* Tooltip.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDC810295AC34400B78064 /* Tooltip.swift */; };
+		CDDDC813295AC95700B78064 /* SignoutCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDC812295AC95700B78064 /* SignoutCommand.swift */; };
+		CDDDC815295ACAF200B78064 /* GenerationJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDC814295ACAF200B78064 /* GenerationJob.swift */; };
+		CDDDC818295ACB3B00B78064 /* MusicPlayerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDC817295ACB3B00B78064 /* MusicPlayerPage.swift */; };
+		CDDDC81A295AD3EC00B78064 /* Extensions+Time+Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDC819295AD3EC00B78064 /* Extensions+Time+Double.swift */; };
+		CDDDC81C295AE41200B78064 /* Extensions+tuncateMiddle+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDC81B295AE41200B78064 /* Extensions+tuncateMiddle+String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD1BEAB6295973470030E057 /* AuthenticationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationPage.swift; sourceTree = "<group>"; };
 		CD308553295947C6007CC9CF /* TextToSpeech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextToSpeech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD308556295947C6007CC9CF /* TextToSpeechApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeechApp.swift; sourceTree = "<group>"; };
-		CD308558295947C6007CC9CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CD308558295947C6007CC9CF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		CD30855A295947C6007CC9CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD30855D295947C6007CC9CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CD30855F295947C6007CC9CF /* TextToSpeech.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TextToSpeech.entitlements; sourceTree = "<group>"; };
+		CD308565295947D6007CC9CF /* AzureTextToSpeech */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AzureTextToSpeech; path = ../../AzureTextToSpeech; sourceTree = "<group>"; };
+		CD30856C29597043007CC9CF /* AuthenticationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationModel.swift; sourceTree = "<group>"; };
+		CD69D0DB29599B4200CE6247 /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
+		CD69D0DE29599B6700CE6247 /* WelcomeListTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeListTile.swift; sourceTree = "<group>"; };
+		CDDDC7ED2959A21E00B78064 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		CDDDC7F02959A62100B78064 /* DefaultSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultSettings.swift; sourceTree = "<group>"; };
+		CDDDC7F22959A92600B78064 /* SetupPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupPage.swift; sourceTree = "<group>"; };
+		CDDDC7F52959B57100B78064 /* GenerationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerationPage.swift; sourceTree = "<group>"; };
+		CDDDC7F82959BBAA00B78064 /* LocalizedAlertError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedAlertError.swift; sourceTree = "<group>"; };
+		CDDDC7FB2959BBEE00B78064 /* Extensions+Alert+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+Alert+View.swift"; sourceTree = "<group>"; };
+		CDDDC7FD2959C9A000B78064 /* VoiceSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceSettingsView.swift; sourceTree = "<group>"; };
+		CDDDC7FF2959D5D500B78064 /* GenerationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerationView.swift; sourceTree = "<group>"; };
+		CDDDC8012959D68500B78064 /* TextModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModel.swift; sourceTree = "<group>"; };
+		CDDDC8042959D94200B78064 /* OpenTextFileCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTextFileCommand.swift; sourceTree = "<group>"; };
+		CDDDC8062959DDEA00B78064 /* ErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
+		CDDDC8082959E91F00B78064 /* SectionTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTile.swift; sourceTree = "<group>"; };
+		CDDDC80A2959F06D00B78064 /* Extensions+AzureVoice+RawRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+AzureVoice+RawRepresentable.swift"; sourceTree = "<group>"; };
+		CDDDC80C295A072800B78064 /* GenerationJobModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerationJobModel.swift; sourceTree = "<group>"; };
+		CDDDC80E295A0E7A00B78064 /* GenerationJobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerationJobView.swift; sourceTree = "<group>"; };
+		CDDDC810295AC34400B78064 /* Tooltip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tooltip.swift; sourceTree = "<group>"; };
+		CDDDC812295AC95700B78064 /* SignoutCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignoutCommand.swift; sourceTree = "<group>"; };
+		CDDDC814295ACAF200B78064 /* GenerationJob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerationJob.swift; sourceTree = "<group>"; };
+		CDDDC817295ACB3B00B78064 /* MusicPlayerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerPage.swift; sourceTree = "<group>"; };
+		CDDDC819295AD3EC00B78064 /* Extensions+Time+Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+Time+Double.swift"; sourceTree = "<group>"; };
+		CDDDC81B295AE41200B78064 /* Extensions+tuncateMiddle+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+tuncateMiddle+String.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +82,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD1BEAB3295972BE0030E057 /* AzureTextToSpeech in Frameworks */,
+				CD1BEABD295975C10030E057 /* AlertToast in Frameworks */,
+				CD1BEABA295974F90030E057 /* SwiftUIKit in Frameworks */,
+				CD30856A29596F68007CC9CF /* KeychainSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD1BEAB1295972BE0030E057 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD1BEAB4295973230030E057 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				CDDDC816295ACB2D00B78064 /* MusicPlayer */,
+				CDDDC7F42959B56500B78064 /* Generation */,
+				CD1BEAB5295973270030E057 /* Home */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		CD1BEAB5295973270030E057 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CD308558295947C6007CC9CF /* HomeView.swift */,
+				CD1BEAB6295973470030E057 /* AuthenticationPage.swift */,
+				CD69D0DB29599B4200CE6247 /* WelcomePage.swift */,
+				CDDDC7F22959A92600B78064 /* SetupPage.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		CD30854A295947C6007CC9CF = {
 			isa = PBXGroup;
 			children = (
 				CD308555295947C6007CC9CF /* TextToSpeech */,
 				CD308554295947C6007CC9CF /* Products */,
+				CD1BEAB1295972BE0030E057 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +140,15 @@
 		CD308555295947C6007CC9CF /* TextToSpeech */ = {
 			isa = PBXGroup;
 			children = (
+				CDDDC8032959D93100B78064 /* Menus */,
+				CDDDC7FA2959BBD200B78064 /* Extensions */,
+				CDDDC7F72959BB9F00B78064 /* Types */,
+				CDDDC7EF2959A61500B78064 /* Settings */,
+				CD69D0DD29599B5400CE6247 /* Components */,
+				CD1BEAB4295973230030E057 /* Pages */,
+				CD30856B29597036007CC9CF /* Models */,
+				CD308565295947D6007CC9CF /* AzureTextToSpeech */,
 				CD308556295947C6007CC9CF /* TextToSpeechApp.swift */,
-				CD308558295947C6007CC9CF /* ContentView.swift */,
 				CD30855A295947C6007CC9CF /* Assets.xcassets */,
 				CD30855F295947C6007CC9CF /* TextToSpeech.entitlements */,
 				CD30855C295947C6007CC9CF /* Preview Content */,
@@ -67,6 +162,84 @@
 				CD30855D295947C6007CC9CF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CD30856B29597036007CC9CF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD30856C29597043007CC9CF /* AuthenticationModel.swift */,
+				CDDDC8012959D68500B78064 /* TextModel.swift */,
+				CDDDC8062959DDEA00B78064 /* ErrorModel.swift */,
+				CDDDC80C295A072800B78064 /* GenerationJobModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CD69D0DD29599B5400CE6247 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CD69D0DE29599B6700CE6247 /* WelcomeListTile.swift */,
+				CDDDC7ED2959A21E00B78064 /* LogoView.swift */,
+				CDDDC8082959E91F00B78064 /* SectionTile.swift */,
+				CDDDC810295AC34400B78064 /* Tooltip.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CDDDC7EF2959A61500B78064 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				CDDDC7F02959A62100B78064 /* DefaultSettings.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		CDDDC7F42959B56500B78064 /* Generation */ = {
+			isa = PBXGroup;
+			children = (
+				CDDDC7F52959B57100B78064 /* GenerationPage.swift */,
+				CDDDC7FD2959C9A000B78064 /* VoiceSettingsView.swift */,
+				CDDDC7FF2959D5D500B78064 /* GenerationView.swift */,
+				CDDDC80E295A0E7A00B78064 /* GenerationJobView.swift */,
+			);
+			path = Generation;
+			sourceTree = "<group>";
+		};
+		CDDDC7F72959BB9F00B78064 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				CDDDC7F82959BBAA00B78064 /* LocalizedAlertError.swift */,
+				CDDDC814295ACAF200B78064 /* GenerationJob.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		CDDDC7FA2959BBD200B78064 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CDDDC7FB2959BBEE00B78064 /* Extensions+Alert+View.swift */,
+				CDDDC80A2959F06D00B78064 /* Extensions+AzureVoice+RawRepresentable.swift */,
+				CDDDC819295AD3EC00B78064 /* Extensions+Time+Double.swift */,
+				CDDDC81B295AE41200B78064 /* Extensions+tuncateMiddle+String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CDDDC8032959D93100B78064 /* Menus */ = {
+			isa = PBXGroup;
+			children = (
+				CDDDC8042959D94200B78064 /* OpenTextFileCommand.swift */,
+				CDDDC812295AC95700B78064 /* SignoutCommand.swift */,
+			);
+			path = Menus;
+			sourceTree = "<group>";
+		};
+		CDDDC816295ACB2D00B78064 /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				CDDDC817295ACB3B00B78064 /* MusicPlayerPage.swift */,
+			);
+			path = MusicPlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +258,12 @@
 			dependencies = (
 			);
 			name = TextToSpeech;
+			packageProductDependencies = (
+				CD30856929596F68007CC9CF /* KeychainSwift */,
+				CD1BEAB2295972BE0030E057 /* AzureTextToSpeech */,
+				CD1BEAB9295974F90030E057 /* SwiftUIKit */,
+				CD1BEABC295975C10030E057 /* AlertToast */,
+			);
 			productName = TextToSpeech;
 			productReference = CD308553295947C6007CC9CF /* TextToSpeech.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +292,11 @@
 				Base,
 			);
 			mainGroup = CD30854A295947C6007CC9CF;
+			packageReferences = (
+				CD30856829596F68007CC9CF /* XCRemoteSwiftPackageReference "keychain-swift" */,
+				CD1BEAB8295974F90030E057 /* XCRemoteSwiftPackageReference "SwiftUIKit" */,
+				CD1BEABB295975C10030E057 /* XCRemoteSwiftPackageReference "AlertToast" */,
+			);
 			productRefGroup = CD308554295947C6007CC9CF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +323,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD308559295947C6007CC9CF /* ContentView.swift in Sources */,
+				CDDDC8072959DDEA00B78064 /* ErrorModel.swift in Sources */,
+				CD69D0DF29599B6700CE6247 /* WelcomeListTile.swift in Sources */,
+				CDDDC815295ACAF200B78064 /* GenerationJob.swift in Sources */,
+				CDDDC7FE2959C9A000B78064 /* VoiceSettingsView.swift in Sources */,
+				CD69D0DC29599B4200CE6247 /* WelcomePage.swift in Sources */,
+				CDDDC818295ACB3B00B78064 /* MusicPlayerPage.swift in Sources */,
+				CDDDC7F62959B57100B78064 /* GenerationPage.swift in Sources */,
+				CDDDC7F32959A92600B78064 /* SetupPage.swift in Sources */,
+				CDDDC81C295AE41200B78064 /* Extensions+tuncateMiddle+String.swift in Sources */,
+				CD1BEAB7295973470030E057 /* AuthenticationPage.swift in Sources */,
+				CDDDC80D295A072800B78064 /* GenerationJobModel.swift in Sources */,
+				CDDDC8022959D68500B78064 /* TextModel.swift in Sources */,
+				CDDDC81A295AD3EC00B78064 /* Extensions+Time+Double.swift in Sources */,
+				CDDDC7F92959BBAA00B78064 /* LocalizedAlertError.swift in Sources */,
+				CDDDC813295AC95700B78064 /* SignoutCommand.swift in Sources */,
+				CD308559295947C6007CC9CF /* HomeView.swift in Sources */,
+				CDDDC7FC2959BBEE00B78064 /* Extensions+Alert+View.swift in Sources */,
+				CDDDC80B2959F06D00B78064 /* Extensions+AzureVoice+RawRepresentable.swift in Sources */,
+				CDDDC8052959D94200B78064 /* OpenTextFileCommand.swift in Sources */,
 				CD308557295947C6007CC9CF /* TextToSpeechApp.swift in Sources */,
+				CDDDC7EE2959A21E00B78064 /* LogoView.swift in Sources */,
+				CDDDC7F12959A62100B78064 /* DefaultSettings.swift in Sources */,
+				CDDDC8092959E91F00B78064 /* SectionTile.swift in Sources */,
+				CDDDC8002959D5D500B78064 /* GenerationView.swift in Sources */,
+				CD30856D29597043007CC9CF /* AuthenticationModel.swift in Sources */,
+				CDDDC80F295A0E7A00B78064 /* GenerationJobView.swift in Sources */,
+				CDDDC811295AC34400B78064 /* Tooltip.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +389,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -240,6 +450,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -266,19 +477,24 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = TextToSpeech/TextToSpeech.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"TextToSpeech/Preview Content\"";
 				DEVELOPMENT_TEAM = P9KK452K8P;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.metopia.sirilee.TextToSpeech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -293,19 +509,24 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = TextToSpeech/TextToSpeech.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"TextToSpeech/Preview Content\"";
 				DEVELOPMENT_TEAM = P9KK452K8P;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.metopia.sirilee.TextToSpeech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -336,6 +557,55 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CD1BEAB8295974F90030E057 /* XCRemoteSwiftPackageReference "SwiftUIKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielsaidi/SwiftUIKit";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		CD1BEABB295975C10030E057 /* XCRemoteSwiftPackageReference "AlertToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/elai950/AlertToast";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		CD30856829596F68007CC9CF /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CD1BEAB2295972BE0030E057 /* AzureTextToSpeech */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AzureTextToSpeech;
+		};
+		CD1BEAB9295974F90030E057 /* SwiftUIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD1BEAB8295974F90030E057 /* XCRemoteSwiftPackageReference "SwiftUIKit" */;
+			productName = SwiftUIKit;
+		};
+		CD1BEABC295975C10030E057 /* AlertToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD1BEABB295975C10030E057 /* XCRemoteSwiftPackageReference "AlertToast" */;
+			productName = AlertToast;
+		};
+		CD30856929596F68007CC9CF /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD30856829596F68007CC9CF /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CD30854B295947C6007CC9CF /* Project object */;
 }
