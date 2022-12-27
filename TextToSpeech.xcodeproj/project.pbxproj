@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD1BEAB3295972BE0030E057 /* AzureTextToSpeech in Frameworks */ = {isa = PBXBuildFile; productRef = CD1BEAB2295972BE0030E057 /* AzureTextToSpeech */; };
+		CD1BEAB3295972BE0030E057 /* null in Frameworks */ = {isa = PBXBuildFile; productRef = CD1BEAB2295972BE0030E057 /* XCSwiftPackageProductDependency */; };
 		CD1BEAB7295973470030E057 /* AuthenticationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1BEAB6295973470030E057 /* AuthenticationPage.swift */; };
-		CD1BEABA295974F90030E057 /* SwiftUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = CD1BEAB9295974F90030E057 /* SwiftUIKit */; };
-		CD1BEABD295975C10030E057 /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = CD1BEABC295975C10030E057 /* AlertToast */; };
+		CD1BEABA295974F90030E057 /* null in Frameworks */ = {isa = PBXBuildFile; productRef = CD1BEAB9295974F90030E057 /* XCSwiftPackageProductDependency */; };
+		CD1BEABD295975C10030E057 /* null in Frameworks */ = {isa = PBXBuildFile; productRef = CD1BEABC295975C10030E057 /* XCSwiftPackageProductDependency */; };
 		CD308557295947C6007CC9CF /* TextToSpeechApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD308556295947C6007CC9CF /* TextToSpeechApp.swift */; };
 		CD308559295947C6007CC9CF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD308558295947C6007CC9CF /* HomeView.swift */; };
 		CD30855B295947C6007CC9CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD30855A295947C6007CC9CF /* Assets.xcassets */; };
 		CD30855E295947C6007CC9CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD30855D295947C6007CC9CF /* Preview Assets.xcassets */; };
-		CD30856A29596F68007CC9CF /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CD30856929596F68007CC9CF /* KeychainSwift */; };
+		CD30856A29596F68007CC9CF /* null in Frameworks */ = {isa = PBXBuildFile; productRef = CD30856929596F68007CC9CF /* XCSwiftPackageProductDependency */; };
 		CD30856D29597043007CC9CF /* AuthenticationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30856C29597043007CC9CF /* AuthenticationModel.swift */; };
 		CD69D0DC29599B4200CE6247 /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD69D0DB29599B4200CE6247 /* WelcomePage.swift */; };
 		CD69D0DF29599B6700CE6247 /* WelcomeListTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD69D0DE29599B6700CE6247 /* WelcomeListTile.swift */; };
@@ -82,10 +82,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD1BEAB3295972BE0030E057 /* AzureTextToSpeech in Frameworks */,
-				CD1BEABD295975C10030E057 /* AlertToast in Frameworks */,
-				CD1BEABA295974F90030E057 /* SwiftUIKit in Frameworks */,
-				CD30856A29596F68007CC9CF /* KeychainSwift in Frameworks */,
+				CD1BEAB3295972BE0030E057 /* null in Frameworks */,
+				CD1BEABD295975C10030E057 /* null in Frameworks */,
+				CD1BEABA295974F90030E057 /* null in Frameworks */,
+				CD30856A29596F68007CC9CF /* null in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +120,7 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
-		CD30854A295947C6007CC9CF = {
+		CD30854A295947C6007CC9CF /* PBXGroup */ = {
 			isa = PBXGroup;
 			children = (
 				CD308555295947C6007CC9CF /* TextToSpeech */,
@@ -259,10 +259,10 @@
 			);
 			name = TextToSpeech;
 			packageProductDependencies = (
-				CD30856929596F68007CC9CF /* KeychainSwift */,
-				CD1BEAB2295972BE0030E057 /* AzureTextToSpeech */,
-				CD1BEAB9295974F90030E057 /* SwiftUIKit */,
-				CD1BEABC295975C10030E057 /* AlertToast */,
+				CD30856929596F68007CC9CF /* XCSwiftPackageProductDependency */,
+				CD1BEAB2295972BE0030E057 /* XCSwiftPackageProductDependency */,
+				CD1BEAB9295974F90030E057 /* XCSwiftPackageProductDependency */,
+				CD1BEABC295975C10030E057 /* XCSwiftPackageProductDependency */,
 			);
 			productName = TextToSpeech;
 			productReference = CD308553295947C6007CC9CF /* TextToSpeech.app */;
@@ -271,7 +271,7 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CD30854B295947C6007CC9CF /* Project object */ = {
+		CD30854B295947C6007CC9CF = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
@@ -291,11 +291,11 @@
 				en,
 				Base,
 			);
-			mainGroup = CD30854A295947C6007CC9CF;
+			mainGroup = CD30854A295947C6007CC9CF /* PBXGroup */;
 			packageReferences = (
-				CD30856829596F68007CC9CF /* XCRemoteSwiftPackageReference "keychain-swift" */,
-				CD1BEAB8295974F90030E057 /* XCRemoteSwiftPackageReference "SwiftUIKit" */,
-				CD1BEABB295975C10030E057 /* XCRemoteSwiftPackageReference "AlertToast" */,
+				CD30856829596F68007CC9CF /* XCRemoteSwiftPackageReference */,
+				CD1BEAB8295974F90030E057 /* XCRemoteSwiftPackageReference */,
+				CD1BEABB295975C10030E057 /* XCRemoteSwiftPackageReference */,
 			);
 			productRefGroup = CD308554295947C6007CC9CF /* Products */;
 			projectDirPath = "";
@@ -495,7 +495,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.metopia.sirilee.TextToSpeech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -527,7 +527,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.metopia.sirilee.TextToSpeech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -559,23 +559,23 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		CD1BEAB8295974F90030E057 /* XCRemoteSwiftPackageReference "SwiftUIKit" */ = {
+		CD1BEAB8295974F90030E057 /* XCRemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/danielsaidi/SwiftUIKit";
+			repositoryURL = https://github.com/danielsaidi/SwiftUIKit;
 			requirement = {
 				branch = master;
 				kind = branch;
 			};
 		};
-		CD1BEABB295975C10030E057 /* XCRemoteSwiftPackageReference "AlertToast" */ = {
+		CD1BEABB295975C10030E057 /* XCRemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/elai950/AlertToast";
+			repositoryURL = https://github.com/elai950/AlertToast;
 			requirement = {
 				branch = master;
 				kind = branch;
 			};
 		};
-		CD30856829596F68007CC9CF /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+		CD30856829596F68007CC9CF /* XCRemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/evgenyneu/keychain-swift";
 			requirement = {
@@ -586,26 +586,26 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		CD1BEAB2295972BE0030E057 /* AzureTextToSpeech */ = {
+		CD1BEAB2295972BE0030E057 /* XCSwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = AzureTextToSpeech;
 		};
-		CD1BEAB9295974F90030E057 /* SwiftUIKit */ = {
+		CD1BEAB9295974F90030E057 /* XCSwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CD1BEAB8295974F90030E057 /* XCRemoteSwiftPackageReference "SwiftUIKit" */;
+			package = CD1BEAB8295974F90030E057 /* XCRemoteSwiftPackageReference */;
 			productName = SwiftUIKit;
 		};
-		CD1BEABC295975C10030E057 /* AlertToast */ = {
+		CD1BEABC295975C10030E057 /* XCSwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CD1BEABB295975C10030E057 /* XCRemoteSwiftPackageReference "AlertToast" */;
+			package = CD1BEABB295975C10030E057 /* XCRemoteSwiftPackageReference */;
 			productName = AlertToast;
 		};
-		CD30856929596F68007CC9CF /* KeychainSwift */ = {
+		CD30856929596F68007CC9CF /* XCSwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CD30856829596F68007CC9CF /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			package = CD30856829596F68007CC9CF /* XCRemoteSwiftPackageReference */;
 			productName = KeychainSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = CD30854B295947C6007CC9CF /* Project object */;
+	rootObject = CD30854B295947C6007CC9CF;
 }
